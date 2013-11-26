@@ -1,0 +1,23 @@
+Name: testcart
+Cartridge-Short-Name: TESTCART
+Display-Name: TestCart
+Version: '1.0.0'
+Versions:
+- '1.0.0'
+Cartridge-Version: 1.0.0
+Cartridge-Vendor: me
+Categories:
+- embedded
+- plugin
+Provides:
+- testcart-1.0.0
+- testcart
+Scaling:
+  Min: 1
+  Max: -1
+Group-Overrides:
+- components:
+  - testcart-1.0.0:
+    additional_filesystem_gb: 2
+  - web_framework
+Install-Build-Required: false
