@@ -17,9 +17,9 @@ Scaling:
   Max: -1
 Group-Overrides:
 - components:
-  #- testcart-1.0.0:
-  - testcart-1.0.0
-  #  additional_filesystem_gb: 2
+  - testcart-1.0.0:
+    additional_filesystem_gb: 2
+  #- testcart-1.0.0
   - web_framework
 Install-Build-Required: false
 Source-Url: https://github.com/bparees/testcart.git
