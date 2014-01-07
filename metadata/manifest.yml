@@ -2,12 +2,9 @@ Name: testcart
 Cartridge-Short-Name: TESTCART
 Display-Name: TestCart
 Version: '1.0.0'
-Versions:
-- '1.0.0'
 Cartridge-Version: 1.0.0
 Cartridge-Vendor: me
 Categories:
-  #- embedded
 - plugin
 Provides:
 - testcart-1.0.0
