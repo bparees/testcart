@@ -7,7 +7,7 @@ Versions:
 Cartridge-Version: 1.0.0
 Cartridge-Vendor: me
 Categories:
-- embedded
+  #- embedded
 - plugin
 Provides:
 - testcart-1.0.0
